@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=decive-width, initial-scale=1">
+  <title>Title</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/glasscase.minf195.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="css/setmedia.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <script type="text/javascript" src="js/jquery.2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/owl.carousel.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</head>
+
+<body>
+
+  <div class="header-top">
+
+    <div class="row">
+      <div class="col-md-3 col-lg-3" id="id-col-lg-3">
+        <div class="header-top-left">
+          <div class="navbar-header-top">
+            <a class="logo-web" href="./"><img class="w_100" src="img/logo.png" alt="Logo"></a>
+            <span class="navbar-brand hidden-sm hidden-xs" onclick="anhien_menu_pc('ul-menu-lv1')" href="./"><i
+                class="fa fa-list" aria-hidden="true"></i></span>
+            <span class="navbar-brand hidden-md hidden-lg" onclick="anhien_menu_mobi('ul-menu-lv1')" href="./"><i
+                class="fa fa-list" aria-hidden="true"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9 col-lg-9">
+        <div class="header-top-right">
+          <div class="item-header-left">
+
+            <div class="user-area">
+              <div class="item-header-top-right">
+                <button class="btn btn-secondary  " type="button" onclick="myFunction('user2')">
+                  <span><i class="fa fa-line-chart" aria-hidden="true"></i><span
+                      class="hidden-sm hidden-xs">&nbsp;&nbsp;Admin</span> </span>
+                </button>
+              </div>
+
+              <div class="user-menu dropdown-menu-trai" id="user2">
+                <h3 class="h3-dropdown-menu-trai">
+                  <span class="">
+                    Danh sách các cửa hàng
+                  </span>
+                </h3>
+                <ul>
+                  <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i> Cuongcuong</a></li>
+                </ul>
+              </div>
+
+            </div>
+
+            <div class="item-header-top-right">
+              <button class="btn btn-secondary  " type="button">
+                <a href="add_ban_be.html"><i class="fa fa-users" aria-hidden="true"></i></a>
+                <span class="countt ">0</span>
+              </button>
+            </div>
+
+            <div class="item-header-top-right">
+              <button class="btn btn-secondary  " type="button">
+                <a href="top_left_gop_y.html"><i class="fa fa-comments-o" aria-hidden="true"></i>&nbsp;<span
+                    class="hidden-sm hidden-xs">Góp ý</span></a>
+                <span class="countt ">0</span>
+              </button>
+            </div>
+
+            <div class="user-area">
+              <div class="item-header-top-right">
+                <button class="btn btn-secondary  " type="button" onclick="myFunction('user3')">
+                  <span><i class="fa fa-phone" aria-hidden="true"></i><span class="hidden-sm hidden-xs"> &nbsp; Mr.Hiếu
+                      &nbsp;</span> </span>
+                </button>
+              </div>
+
+              <div class="user-menu dropdown-menu-thanhtoan" id="user3">
+                <ul>
+                  <li><a href="dv_thanh_toan.html"><i class="fa fa-money" aria-hidden="true"></i> <span class="">Thanh
+                        toán</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+          <div class="item-header-right">
+
+            <div class="item-header-top-right">
+              <button class="btn btn-secondary  " type="button">
+                <a href=""><i class="fa fa-lock" aria-hidden="true"></i></a>
+              </button>
+            </div>
+            <div class="item-header-top-right">
+              <button class="btn btn-secondary  " type="button">
+                <a href="canhbao_khach_hang_bao_xau.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+              </button>
+            </div>
+            <div class="item-header-top-right">
+              <button class="btn btn-secondary  " type="button">
+                <a href="canhbao_thong_bao_hen_gio.html"><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                <span class="countt ">0</span>
+              </button>
+            </div>
+            <div class="item-header-top-right">
+              <button class="btn btn-secondary  " type="button">
+                <a href="canhbao_gop_von.html"><i class="fa fa-diamond"></i></a>
+                <span class="countt ">0</span>
+              </button>
+            </div>
+            <div class="item-header-top-right">
+              <button class="btn btn-secondary  " type="button">
+                <a href="canhbao_camdo.html"><i class="fa fa-motorcycle"></i></a>
+                <span class="countt ">0</span>
+              </button>
+            </div>
+            <div class="item-header-top-right">
+              <button class="btn btn-secondary  " type="button">
+                <a href="canhbao_tin_chap.html"><i class="fa fa-money" aria-hidden="true"></i></a>
+                <span class="countt ">0</span>
+              </button>
+            </div>
+            <div class="item-header-top-right">
+              <button class="btn btn-secondary  " type="button">
+                <a href="canhbao_tra_gop.html"> <i class="fa fa-bitbucket"></i></a>
+                <span class="countt ">0</span>
+              </button>
+            </div>
+
+            <div class="user-area">
+              <span href="#" class="user-nguoi" onclick="myFunction('user1')">
+                <img class="user-avatar" src=" img/admin.jpg" alt="User Avatar">
+              </span>
+
+              <div class="user-menu dropdown-menu-user" id="user1">
+                <div class="nav-link" href="#" data-toggle="modal" data-target="#doi_thong_tin_ca_nhan"><i
+                    class="fa fa-user"></i>Đổi thông tin cá nhân</div>
+
+                <div class="nav-link" href="#" data-toggle="modal" data-target="#lich_su_dang_nhap"><i
+                    class="fa fa-user"></i>Lịch sử đăng nhập </div>
+
+                <div class="nav-link" href="#" data-toggle="modal" data-target="#doi_mat_khau"><i
+                    class="fa fa-cog"></i>Đổi mật khẩu</div>
+
+                <a href="" class="swal2-confirm btn btn-danger m-btn m-btn--pill m-btn--air m-btn--icon dangxuat">
+                  Đăng xuất
+                </a>
+              </div>
+
+              <div class="modal fade" id="doi_thong_tin_ca_nhan" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Đổi thông tin</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="">
+                        <input type="hidden" id="profile_cityid" value="35">
+                        <input type="hidden" id="profile_districtid" value="349">
+                        <div class="col-lg-12 form-group m-form__group row">
+                          <label class="col-lg-4 col-form-label font-weight-bold">
+                            Họ và tên <span class="text-danger">*</span>
+                          </label>
+                          <div class="col-lg-8">
+                            <input type="text" class="form-control m-input " placeholder="Hãy nhập họ và tên"
+                              name="changeinfo_fullname" id="changeinfo_fullname" value="bui vu xuan cuong">
+                          </div>
+                        </div>
+                        <br><br>
+                        <div class="col-lg-12 form-group m-form__group row">
+                          <label class="col-lg-4 col-form-label font-weight-bold">
+                            Điện thoại <span class="text-danger">*</span>
+                          </label>
+                          <div class="col-lg-8">
+                            <input type="text" class="form-control m-input " placeholder="Hãy nhập số điện thoại"
+                              name="changeinfo_phone" id="changeinfo_phone" value="0916632317">
+                          </div>
+                        </div>
+                        <br><br>
+                        <div class="col-lg-12 form-group m-form__group row">
+                          <label class="col-lg-4 col-form-label font-weight-bold">
+                            Email
+                          </label>
+                          <div class="col-lg-8">
+                            <input type="text" class="form-control m-input " placeholder="Hãy nhập địa chỉ email"
+                              name="changeinfo_email" id="changeinfo_email">
+                          </div>
+                        </div>
+                      </form>
+
+                    </div>
+                    <br><br>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                      <button type="button" class="btn btn-primary">Lưu</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal fade" id="doi_mat_khau" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Đổi Mật khẩu</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="">
+                        <input type="hidden" id="profile_cityid" value="35">
+                        <input type="hidden" id="profile_districtid" value="349">
+                        <div class="col-lg-12 form-group m-form__group row">
+                          <label class="col-lg-4 col-form-label font-weight-bold">
+                            Mật khẩu hiện tại <span class="text-danger">*</span>
+                          </label>
+                          <div class="col-lg-8">
+                            <input type="password" class="form-control m-input" placeholder="Hãy nhập mật khẩu hiện tại"
+                              id="changepassword_current" name="changepassword_current">
+                          </div>
+                        </div>
+                        <br><br>
+                        <div class="col-lg-12 form-group m-form__group row">
+                          <label class="col-lg-4 col-form-label font-weight-bold">
+                            Mật khẩu mới <span class="text-danger">*</span>
+                          </label>
+                          <div class="col-lg-8">
+                            <input type="password" class="form-control m-input" placeholder="Hãy nhập mật khẩu mới"
+                              id="changepassword_new" name="changepassword_new">
+                          </div>
+                        </div>
+                        <br><br>
+                        <div class="col-lg-12 form-group m-form__group row">
+                          <label class="col-lg-4 col-form-label font-weight-bold">
+                            Nhập lại mật khẩu <span class="text-danger">*</span>
+                          </label>
+                          <div class="col-lg-8">
+                            <input type="password" class="form-control m-input" placeholder="Hãy nhập lại mật khẩu"
+                              id="changepassword_re" name="changepassword_re">
+                          </div>
+                        </div>
+                      </form>
+
+                    </div>
+                    <br><br>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                      <button type="button" class="btn btn-primary">Lưu</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal fade" id="lich_su_dang_nhap" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Lịch sử đăng nhập</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+
+
+                    </div>
+                    <br><br>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                      <button type="button" class="btn btn-primary">Lưu</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <section class="body-trang">
+    <div class="row">
+      <div class="col-md-3 col-lg-3" id="ul-menu-lv1">
+
+        <ul class="ul-menu-lv1">
+          <li class="li-menu-lv1">
+            <a href="index.html" class="">
+              <i class="fa fa-line-chart" aria-hidden="true"></i>
+              <span>Trang chủ</span>
+            </a>
+          </li>
+          <!-- <li class="li-menu-lv1">
+            <h4 class="m-menu__section-text">
+              Chức năng
+            </h4>
+          </li> -->
+          <li class="li-menu-lv1">
+            <a href="left_cam_do.html">
+              <i class=" fa fa-motorcycle"></i>
+              <span class="m-menu__link-text">
+                Cầm đồ
+              </span>
+            </a>
+          </li>
+          <li class="li-menu-lv1">
+            <a href="left_tin_chap.html">
+              <i class=" fa fa-money"></i>
+              <span class="m-menu__link-text">
+                Tín Chấp
+              </span></a>
+          </li>
+          <li class="li-menu-lv1">
+            <a href="left_tra_gop.html">
+              <i class=" fa fa-bitbucket"></i>
+              <span class="m-menu__link-text">
+                Trả góp
+              </span></a>
+          </li>
+          <li class="li-menu-lv1" class="myMenu" onclick="myMenu1('ql_cuahang')">
+            <span><i class="fa fa-line-chart" aria-hidden="true"></i>
+              <span class="m-menu__link-text">
+                Quản lý cửa hàng
+              </span></span>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <ul class="ul-menu-lv-2" id="ql_cuahang">
+              <li class="li-menu-lv2">
+                <span><a href="ql_cuahang_tongquat.html">Tổng quát chuỗi cửa hàng</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="ql_cuahang_thongtin.html">Thông tin chi tiết cửa hàng</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="ql_cuahang_danhsach.html">Danh sách cửa hàng</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="ql_cuahang_cauhinh_hang_hoa.html">Cấu hình hàng hóa</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="ql-cuahang_nhaptien_hang_ngay.html">Nhập tiền quỹ đầu ngày</a></span>
+              </li>
+            </ul>
+          </li>
+          </li>
+          <li class="li-menu-lv1" class="myMenu" onclick="myMenu1('ql_thuchi')">
+            <span><i class="fa fa-line-chart" aria-hidden="true"></i>
+              <span class="m-menu__link-text">
+                Quản lý thu chi
+              </span></span>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <ul class="ul-menu-lv-2" id="ql_thuchi">
+              <li class="li-menu-lv2">
+                <span><a href="thuchi_chi_hoat_dong.html">Chi hoạt động</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="thuchi_thu_hoat_dong.html">Thu hoạt động</a></span>
+              </li>
+            </ul>
+          </li>
+
+          <li class="li-menu-lv1">
+            <a href="quan_ly_nguon_von.html">
+              <i class=" fa fa-money"></i>
+              <span class="m-menu__link-text">
+                Quản lý nguồn vốn
+              </span></a>
+          </li>
+
+          <li class="li-menu-lv1" class="myMenu" onclick="myMenu1('ql_nhanvien')">
+            <span><i class="fa fa-line-chart" aria-hidden="true"></i>
+              <span class="m-menu__link-text">
+                Quản lý nhân viên
+              </span></span>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <ul class="ul-menu-lv-2" id="ql_nhanvien">
+              <li class="li-menu-lv2">
+                <span><a href="nhanvien_danh_sach_nhan_vien.html">Danh sách nhân viên</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="nhanvien_phanquyen_nhanvien.html">Phân quyền nhân viên</a></span>
+              </li>
+            </ul>
+          </li>
+          </li>
+          <li class="li-menu-lv1" class="myMenu" onclick="myMenu1('baocao')">
+            <span><i class="fa fa-line-chart" aria-hidden="true"></i>
+              <span class="m-menu__link-text">
+                Báo cáo
+              </span></span>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <ul class="ul-menu-lv-2" id="baocao">
+              <li class="li-menu-lv2">
+                <span><a href="baocao_tong_ket_giaodich.html">Tổng kết giao dịch</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="baocao_tong_ket_loi_nhuan.html">Tổng kết lợi nhuận</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="baocao_chi_tiet_tien_lai.html">Chi tiết tiền lãi</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="baocao_dang_cho_vay.html">Báo cáo đang cho vay</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="baocao_thong_ke_thu_tien.html">Thống kê thu tiền</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="baocao_hang_cho_thanh_ly.html">Báo cáo hàng chờ thanh lý</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="baocao_chuoc_do_dong_HD.html">Báo cáo chuộc đồ , đóng HD</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="baocao_thanh_ly_do.html">Báo cáo thanh lý đồ</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="baocao_hop_dong_da_xoa.html">Báo cáo hợp đồng đã xóa</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="baocao_tin_nhan.html">Báo cáo tin nhắn</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="baocao_ban_giao_ca.html">Bàn giao ca</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="baocao_dong_tien_theo_ngay.html">Dòng tiền theo ngày</a></span>
+              </li>
+            </ul>
+          </li>
+          </li>
+          <li class="li-menu-lv1" class="myMenu" onclick="myMenu1('dichvu')">
+            <span><i class="fa fa-line-chart" aria-hidden="true"></i>
+              <span class="m-menu__link-text">
+                Dịch vụ
+              </span></span>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <ul class="ul-menu-lv-2" id="dichvu">
+              <li class="li-menu-lv2">
+                <span><a href="dv_mua_bao_hiem.html">Mua bảo hiểm</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="dv_thanh_toan.html">Thanh toán</a></span>
+              </li>
+              <li class="li-menu-lv2">
+                <span><a href="dv_kiem_tra_dang_vay.html">Kiểm tra đang vay</a></span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="col-md-9 col-lg-9 top-55">
+        <div class="sum-camdo add-ban_be">
+          <h2 class="h2">Lời mời kết bạn</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="item-baongoai">
+                <form action="" class="form-timkiem-banbe">
+                  <div class="item-form-timkiem-banbe">
+                    <input type="text" class="form-control" placeholder="Nhập tên bạn bè">
+                    <button type="submit"> <i class="fa fa-search" aria-hidden="true"></i>Tìm kiếm</button>
+                  </div>
+                </form>
+
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="item-baongoai">
+                <h3>Danh sách bạn bè</h3>
+                <p><a href="" class="color-xanh-duong">Thêm bạn mới</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <span>
+            @ 2022 là phần mềm được phát triển bởi Công ty cổ phần công nghệ
+          </span>
+          <ul>
+            <li><a href="">Hướng dẫn</a></li>
+            <li><a href="">Tính năng</a></li>
+            <li><a href="">Thanh toán</a></li>
+            <li><a href="">Liên hệ</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="modal fade" id="themmoi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Thêm mới Hợp đồng</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <form action="" class="form-them-moi">
+              <div class="col-md-6">
+                <div class="item-themmoi">
+                  <h6><i class="fa fa-user" aria-hidden="true"></i> Thông tin khách hàng</h6>
+                  <div class="item-form-them-moi">
+                    <label for="">Khách hàng </label>
+                    <div class="item-lv2-form-them-moi">
+                      <input type="checkbox"> <span>Khách hàng mới</span> &nbsp;&nbsp;
+                      <input type="checkbox"> <span>Khách hàng cũ</span>
+                    </div>
+                  </div>
+                  <div class="item-form-them-moi">
+                    <label for="">Tên Khách hàng</label>
+                    <input class="form-control" type="text" placeholder="Nhập tên khách hàng" required>
+                  </div>
+                  <div class="item-form-them-moi">
+                    <label for="">Số CMND/Hộ chiếu</label>
+                    <input class="form-control" type="number" placeholder="Nhập tên khách hàng" required>
+                  </div>
+                  <div class="item-form-them-moi">
+                    <label for="">Địa chỉ</label>
+                    <textarea class="w_100" style="height:100px;" name="" id=""
+                      placeholder="Nhập địa chỉ khách hàng"></textarea>
+                  </div>
+                  <h6><i class="fa fa-user" aria-hidden="true"></i>Thông tin khoản vay</h6>
+                  <div class="item-form-them-moi">
+                    <label for="">Loại tài sản</label>
+                    <select name="" id="">
+                      <option value="">Chọn loại tài sản</option>
+                    </select>
+                  </div>
+                  <div class="item-form-them-moi">
+                    <label for="">Tổng số tiền vay</label>
+                    <input class="form-control" type="number" placeholder="VNĐ" required>
+                  </div>
+                  <div class="item-form-them-moi">
+                    <label for="">Hình thức lãi</label>
+                    <select name="" id="">
+                      <option value="">Lãi ngày k/triệu</option>
+                    </select>
+                  </div>
+                  <div class="item-form-them-moi">
+                    <label for="">Số tháng vay</label>
+                    <input class="form-control" type="number" placeholder="Nhập số tháng vay" required>
+                  </div>
+                  <div class="item-form-them-moi">
+                    <label for="">Kỳ lãi</label>
+                    <input class="form-control" type="number" placeholder="Vd:tháng đóng 1 lần thì điền 1" required>
+                  </div>
+                  <div class="item-form-them-moi">
+                    <label for="">Lãi</label>
+                    <input class="form-control" type="number" placeholder="Số %/1 tháng" required>
+                  </div>
+                  <div class="item-form-them-moi">
+                    <label for="">Ngày vay</label>
+                    <input class="form-control" type="date" placeholder="Ngày vay" required>
+                  </div>
+                  <div class="item-form-them-moi">
+                    <label for="">Ghi chú</label>
+                    <textarea class="w_100" style="height:100px;" name="" id="" placeholder="Ghi chú"></textarea>
+                  </div>
+                  <div class="item-form-them-moi">
+                    <label for="">Nhân viên thu tiền</label>
+                    <select name="" id="">
+                      <option value="">Admin</option>
+                    </select>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="item-themmoi">
+                  <h6><i class="fa fa-user" aria-hidden="true"></i> Thông tin tài sản <b>cấu hình tại
+                      đây</b></h6>
+                  <div class="item-form-them-moi">
+                    <label for="">Mã hợp đồng</label>
+                    <input class="form-control" type="number" value="1" required>
+                  </div>
+                  <div class="item-form-them-moi">
+                    <label for="">Số điện thoại</label>
+                    <input class="form-control" type="date" placeholder="Nhập số điện thoại" required>
+                  </div>
+                  <div class="item-form-them-moi">
+                    <label for="">Tên tài sản</label>
+                    <input class="form-control" type="date" placeholder="Nhập tên tài sản" required>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+          <button type="button" class="btn btn-primary">Lưu</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="mau_hop_dong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Thêm mới Hợp đồng</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <form action="">
+              <div class="col-md-6">
+                <div class="item-themmoi">
+                  <img src="https://admin.mecash.vn/Images/Default_1_Type4.png" alt="" class="w_100">
+                </div>
+                <input type="checkbox"> &nbsp; Chọn mẫu này
+              </div>
+              <div class="col-md-6">
+                <div class="item-themmoi">
+                  <img src="https://admin.mecash.vn/Images/Default_2_Type4.png" alt="" class="w_100">
+                </div>
+                <input type="checkbox"> &nbsp; Chọn mẫu này
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+          <button type="button" class="btn btn-primary">Lưu</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

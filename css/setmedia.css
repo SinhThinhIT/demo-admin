@@ -1,0 +1,348 @@
+@media (min-width:1770px)
+
+/* lg*/
+    {
+    .container {
+        max-width: 1650px;
+        padding: 0;
+        width: 95%;
+    }
+}
+
+@media (min-width:1500px) and (max-width:1769px)
+
+/* md*/
+    {
+    .container {
+        max-width: 1400px;
+        padding: 0;
+        width: 95%;
+
+    }
+}
+
+@media (min-width:1200px) and (max-width:1499px)
+
+/* md*/
+    {
+    .container {
+        max-width: 1110px;
+        padding: 0;
+        width: 95%;
+
+    }
+}
+
+@media (min-width:1200) {
+    .row .col-lg-3 {
+        width: 255px !important;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px)
+
+/* md*/
+    {}
+
+@media (min-width:993px) {
+    #themmoi .modal-dialog {
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    #themmoi .modal-content {
+        width: 100%;
+    }
+
+    #Thong-tin-ky-hop-dong .modal-dialog {
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    #Thong-tin-ky-hop-dong .modal-content {
+        width: 100%;
+    }
+
+    #mau_hop_dong .modal-dialog {
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    #mau_hop_dong .modal-content {
+        width: 100%;
+    }
+
+   .modal-dialog {
+        width: 90%;
+        max-width: 1200px;
+    }
+
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+@media (max-width:992px) {
+    ul.ul-menu-lv1 {
+        margin-top: 105px !important;
+    }
+
+    .header-top-right {
+        position: relative;
+    }
+
+    .navbar-header-top {
+        padding-right: 60px;
+    }
+
+    .item-header-right .user-area {
+        position: fixed;
+        top: 5px;
+        right: 15px;
+    }
+
+    .item-header-right {
+        gap: 0px !important;
+    }
+
+    .btn {
+        padding: 6px 6px !important;
+    }
+
+    .item-header-left {
+        gap: 0px !important;
+    }
+
+    .dropdown-menu-trai {
+        width: 100vw !important;
+        border: 1px solid #f6f7fa;
+        box-shadow: 0px 5px 62px 0px rgb(2 52 102 / 10%);
+        -webkit-box-shadow: 0px 5px 62px 0px rgb(2 52 102 / 10%);
+    }
+
+    .dropdown-menu-thanhtoan {
+        width: 265px !important;
+        border: 1px solid #f6f7fa;
+        box-shadow: 0px 5px 62px 0px rgb(2 52 102 / 10%);
+        -webkit-box-shadow: 0px 5px 62px 0px rgb(2 52 102 / 10%);
+    }
+
+    .dropdown-menu-thanhtoan ul {
+        grid-template-columns: auto !important;
+        gap: 10px !important;
+    }
+
+    .dropdown-menu-trai ul {
+        grid-template-columns: auto !important;
+        gap: 10px !important;
+    }
+
+    ul.ul-menu-lv1 {
+        height: 0 !important;
+        display: none;
+    }
+
+    .menu_mobi ul.ul-menu-lv1 {
+        height: 100vh !important;
+        display: block !important;
+    }
+
+    .sum-trang {
+        padding-top: 105px !important;
+    }
+
+    .item-sum-trang-1 {
+        grid-template-columns: auto !important;
+        margin-top: 20px;
+        gap: 5px !important;
+    }
+
+    .list-item-doanh_so-sum-trang {
+        grid-template-columns: auto !important;
+    }
+
+    .item-doanh-so-hoatdong {
+        height: auto !important;
+    }
+
+    .header-top {
+        margin-bottom: 105px !important;
+    }
+
+    .top-55 {
+        margin-top: 105px !important;
+    }
+
+    .list-item-tong-kettien {
+        grid-template-columns: auto !important;
+    }
+
+    .form-timkiem-camdo {
+        display: grid !important;
+        grid-template-columns: auto !important;
+        gap: 10px;
+    }
+
+    .cac-nut button {
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+        height: auto !important;
+    }
+
+    .footer ul {
+        gap: 10px !important;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .footer span {
+        text-align: center;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .item-form-them-moi {
+        grid-template-columns: auto !important;
+    }
+
+    .item-form-them-moi label {
+        float: right;
+        text-align: left !important;
+    }
+
+    .item-tra_cuu_dangvay {
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+    .baongoai .col-md-6 .item-baongoai {
+        background-color: white;
+        width: 100%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .footer {
+        position: inherit !important;
+        width: 100% !important;
+    }
+
+    .baongoai .col-md-6 .item-baongoai {
+        padding: 0px !important;
+    }
+
+    .sum-noidung-y_kien {
+        grid-template-columns: auto !important;
+        gap: 10px !important;
+    }
+
+    .loc_canhbao_gop_von {
+        grid-template-columns: auto !important;
+    }
+
+    .cac-nut {
+        flex-direction: column;
+    }
+
+    .loc_canhbao_tragop {
+        grid-template-columns: auto !important;
+    }
+
+    .form-check-cuahang {
+        display: grid;
+        grid-template-columns: auto !important;
+    }
+
+    .form-lich-su-phieu-chi {
+        grid-template-columns: auto !important;
+    }
+
+    .form-lich-su-phieu-chi button {
+        width: 130px;
+    }
+
+    .form-list-user-buy-baohiem {
+        flex-direction: column;
+    }
+
+    .form-tong-ket-giao-dich {
+        flex-direction: column;
+    }
+
+    .form-tong-ket-loi-nhuan {
+        flex-direction: column;
+    }
+
+    .form-nhap-tien-dau-ngay {
+        display: grid;
+        grid-template-columns: auto !important;
+    }
+
+
+    .form-nhap-quy-tien-mat {
+        grid-template-columns: auto !important;
+
+    }
+
+    .form-hop-dong-gop-von {
+        grid-template-columns: auto !important;
+    }
+
+    .form-tim-kiem-camdo {
+        flex-direction: column;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)
+
+/* sm*/
+    {
+    .header-top {
+        height: 105px !important;
+    }
+}
+
+@media (max-width:767px)
+
+/* xs*/
+    {
+    .header-top {
+        height: 105px !important;
+    }
+
+    ul.ul-menu-lv1 {
+        margin-top: 105px !important;
+    }
+
+    .item-header-right .user-area {
+        right: 25px !important;
+    }
+
+    .navbar-header-top {
+        padding-right: 70px !important;
+    }
+
+    ul.ul-menu-lv1 {
+        height: 0 !important;
+        display: none;
+    }
+
+    .menu_mobi ul.ul-menu-lv1 {
+        height: 100vh !important;
+        display: block !important;
+
+    }
+}
+
+@media (max-width:480px) {}
+
+
+.visible-480 {
+    display: none;
+}

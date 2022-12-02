@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Login 10</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="img js-fullheight" style="background-image: url(images/bg.jpg); height: 100%;">
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="login-wrap p-0">
+                        <h3 class="mb-4 text-center">Đăng ký</h3>
+                        <form action="#" class="signin-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Tài khoản" required>
+                            </div>
+                            <div class="form-group">
+                                <input id="password-field" type="password" class="form-control" placeholder="Mật khẩu"
+                                    required>
+                                <span toggle="#password-field"
+                                    class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Họ tên" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Số điện thoại" required>
+                            </div>
+                            <div class="form-group">
+                                <select name="" id="" required>
+                                    <option value="">Chọn thành phố</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="" id="" required>
+                                    <option value="">Quận huyện</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Người giới thiệu" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Tên cửa hàng" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Kinh phí dự trù hiện tại" required>
+                            </div>
+                            <div class="form-group dangky_hoac_huy">
+                                <!-- <button type="submit" class="form-control btn btn-primary submit px-3">Sign In</button>
+                                <button type="submit" class="form-control btn btn-primary submit px-3">Sign In</button> -->
+
+                                <button id="m_login_signup_submit" type="submit"
+                                    class="btn btn-mecash m-btn m-btn--pill m-btn--custom m-btn--air  m-login__btn">
+                                    Đăng ký
+                                </button>
+                                &nbsp;&nbsp;
+                                <a href="dang_nhap.html">
+                                    <button id="m_login_signup_cancel"
+                                        class="btn btn-huy m-btn m-btn--pill m-btn--custom m-btn--air m-login__btn">
+                                        Hủy
+                                    </button>
+                                </a>
+                            </div>
+                        </form>
+                        <div class="m-login__account">
+							<span class="m-login__account-msg">
+								Đăng nhập tài khoản có sẵn
+							</span>
+							&nbsp;&nbsp;
+							<a href="dang_nhap.html" id="m_login_signup" class="m-link m-link--light m-login__account-link">
+								Đăng nhập
+							</a>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+<style>
+    .btn-mecash {
+        color: #fff;
+        background-color: #e9552d;
+        border-color: #e9552d;
+    }
+
+    .btn-huy {
+        color: black;
+        background-color: #e0e0e0;
+        border-color: #e0e0e0;
+        padding-left: 40px;
+        padding-right: 40px;
+
+    }
+
+    .m-login__btn {
+        display: inline-block;
+        text-align: center;
+        padding: 13px 30px;
+        margin-top: 0.8rem;
+    }
+
+    .dangky_hoac_huy {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    select {
+        background: transparent;
+        border: none;
+        height: 50px;
+        color: white !important;
+        border: 1px solid transparent;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        width: 100%;
+    }
+    @media(max-width:767px){
+        .form-control {
+            height: 35px !important;
+        }
+        select{
+            height: 35px !important;
+        }
+    }
+</style>
+
+</html>
